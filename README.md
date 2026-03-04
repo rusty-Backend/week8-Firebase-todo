@@ -12,7 +12,7 @@ All the data is stored in a Firestore collection called "tasks".
 
 onSnapshot listens for real time changes (addTask, toggleTaskDone or deleteTask) and the UI updates automatically.
 
-<img src="Screenshot_firebase.png" width="300">
+<img src="Screenshot_firebase.png" width="900">
 
 The App has basic functions:
 
