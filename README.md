@@ -4,11 +4,15 @@ The idea of this task was to practice usage of Firebase/Firestore. I have been t
 
 All the logic is in App.tsx and the /Firebase/Config.js contains all the API information for the Firebase. I have provided Config.example.js file as an example of the real Config.js file.
 
+<img src="Screenshot.jpg" width="300">
+
 ## How it works
 
 All the data is stored in a Firestore collection called "tasks".
 
 onSnapshot listens for real time changes (addTask, toggleTaskDone or deleteTask) and the UI updates automatically.
+
+<img src="Screenshot_firebase.png" width="300">
 
 The App has basic functions:
 
